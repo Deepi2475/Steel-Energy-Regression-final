@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "Lagging_Current_Reactive.Power_kVarh": 3.0,
+      "Leading_Current_Reactive_Power_kVarh": 0.0,
+      "CO2(tCO2)": 0.0,
+      "Lagging_Current_Power_Factor": 73.21,
+      "Leading_Current_Power_Factor": 100.0,
+      "NSM": 900,
+      "WeekStatus": "weekday",
+      "Day_of_week": "monday",
+      "Load_Type": "light_load"
+    }
+  ]
+}
+

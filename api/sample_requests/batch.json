@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "Lagging_Current_Reactive.Power_kVarh": 3.0,
+      "Leading_Current_Reactive_Power_kVarh": 0.0,
+      "CO2(tCO2)": 0.0,
+      "Lagging_Current_Power_Factor": 73.21,
+      "Leading_Current_Power_Factor": 100.0,
+      "NSM": 900,
+      "WeekStatus": "weekday",
+      "Day_of_week": "monday",
+      "Load_Type": "light_load"
+    },
+    {
+      "Lagging_Current_Reactive.Power_kVarh": 5.5,
+      "Leading_Current_Reactive_Power_kVarh": 0.2,
+      "CO2(tCO2)": 0.1,
+      "Lagging_Current_Power_Factor": 75.5,
+      "Leading_Current_Power_Factor": 98.0,
+      "NSM": 1200,
+      "WeekStatus": "weekend",
+      "Day_of_week": "saturday",
+      "Load_Type": "medium_load"
+    },
+    {
+      "Lagging_Current_Reactive.Power_kVarh": 8.0,
+      "Leading_Current_Reactive_Power_kVarh": 0.5,
+      "CO2(tCO2)": 0.3,
+      "Lagging_Current_Power_Factor": 78.0,
+      "Leading_Current_Power_Factor": 95.0,
+      "NSM": 1800,
+      "WeekStatus": "weekday",
+      "Day_of_week": "tuesday",
+      "Load_Type": "maximum_load"
+    }
+  ]
+}
+
