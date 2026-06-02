@@ -126,16 +126,6 @@ uv run python scripts/08_drift_evidently.py
 uv run python scripts/09_drift_nannyml.py
 ```
 
-## Model Comparison
-
-| Model | Validation RMSE | Validation MAE | Validation R² | Test RMSE | Test MAE | Test R² |
-|-------|----------------|----------------|---------------|-----------|----------|---------|
-| XGBoost | TBD | TBD | TBD | TBD | TBD | TBD |
-| LightGBM | TBD | TBD | TBD | TBD | TBD | TBD |
-| RandomForest | TBD | TBD | TBD | TBD | TBD | TBD |
-
-*Results will be updated after training runs complete.*
-
 ## Champion Model
 
 The champion model will be determined based on the lowest validation RMSE with consistent test performance. See `reports/drift_summary.md` for details.
@@ -147,6 +137,27 @@ The project is configured to use a remote MLflow Tracking Server with:
 - Artifact store: S3 bucket
 
 See the requirements document for EC2 setup instructions.
+
+## Key Results
+
+- Developed and evaluated multiple regression models for industrial energy prediction.
+- Implemented end-to-end ML workflow including tracking, deployment, and monitoring.
+- Built a FastAPI inference service for real-time predictions.
+- Performed model drift analysis using Evidently and NannyML.
+- Managed experiment tracking using MLflow with remote storage. 
+
+## Skills Demonstrated
+
+- Machine Learning
+- Predictive Analytics
+- Python
+- MLflow
+- FastAPI
+- AWS
+- Model Deployment
+- Feature Engineering
+- Data Cleaning
+- Model Monitoring
 
 ## License
 
